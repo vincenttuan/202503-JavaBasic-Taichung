@@ -1,6 +1,6 @@
 public class Main25 {
 	public static void main(String[] args) {
-		String id = "A183456789";
+		String id = "A123456789";
 		//           0123456789
 		// 請印出第三碼身份碼的意義
 		//0 ~ 5	臺灣出生之本籍國民
@@ -8,7 +8,7 @@ public class Main25 {
 		//  7	入籍國民，原為無戶籍國民
 		//  8	入籍國民，原為香港居民或澳門居民
 		//  9	入籍國民，原為大陸地區居民
-		int identityCode = id.charAt(2);
+		char identityCode = id.charAt(2);
 
 		// Java 11(含) 以前的寫法
 		switch(identityCode) {
